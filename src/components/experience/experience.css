@@ -1,0 +1,23 @@
+.exp {
+  background-color: black;
+  /* height: 100vh; */
+  padding: 120px 0 80px 0;
+  border: 1px solid red;
+  color: white;
+}
+
+.exp h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+/* .expList {
+  border: 1px solid orange;
+} */
+
+.exp-item {
+  padding-top: 5px;
+  /* border: 1px solid #f64c08; */
+  border: 1px solid #fff;
+  /* border-bottom: 2px; */
+}

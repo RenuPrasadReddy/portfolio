@@ -1,0 +1,30 @@
+.contact {
+  background-color: black;
+  color: white;
+  padding: 120px 0 80px 0;
+  height: 100vh;
+}
+
+/* .contact_box {
+  border: 1px solid yellow;
+} */
+
+.email {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  margin-right: 10px;
+}
+
+.square-box {
+  padding: 10px 0;
+  border: 1px solid white;
+}
+
+.MuiSvgIcon-root {
+  font-size: 40px !important;
+}

@@ -1,0 +1,23 @@
+.projects {
+  background-color: black;
+  padding: 120px 0 80px 0;
+  /* height: 100vh; */
+  color: white;
+  /* border: 1px solid red; */
+}
+
+.projectList {
+  padding: 30px 25px;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; */
+}
+.projects_content {
+  text-align: center;
+  margin-bottom: 50px;
+  /* border-bottom: 1px solid white; */
+}
+.projects_content h3 {
+  font-weight: 500;
+}

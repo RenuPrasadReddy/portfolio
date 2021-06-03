@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  height: 80px;
+  top: 0;
+  position: sticky;
+  z-index: 100;
+}
+
+.header__left {
+  flex: 0.4;
+  /* border: 1px solid red; */
+}
+.header__left h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  padding: 20px 0;
+}
+
+.header__left h1 span {
+  color: #f64c08;
+  /* color: rgb(187 127 73); */
+}
+
+.header__right {
+  flex: 0.5;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__right a h4 {
+  padding: 8px 5px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+}
+
+.header__right a h4:hover {
+  transform: scale(1.09);
+  background-color: #f64c08;
+  border-radius: 4px;
+}
