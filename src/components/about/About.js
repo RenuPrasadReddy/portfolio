@@ -11,7 +11,7 @@ function About() {
           <p>A Professional MERN stack developer</p>
         </div>
         <div className="about__buttons">
-          <button className=" btn dwnld-btn">Download CV</button>
+          <a href="https://drive.google.com/uc?export=download&id=183TSJZ1pRlZ-oETW74wtDFMmzLhmxcGu"><button className=" btn dwnld-btn">Download CV</button></a>
           <Link to="projects" smooth={true} duration={500}>
             <button className=" btn myWorks-btn">My works</button>
           </Link>
